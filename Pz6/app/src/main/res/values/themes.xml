@@ -1,0 +1,6 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- В этом файле теперь будет только ссылка на стиль определенный в styles.xml -->
+    <style name="Theme.StartScreen" parent="Theme.FitnessTracker.StartScreen">
+        <!-- Этот стиль теперь наследуется от Theme.FitnessTracker.StartScreen -->
+    </style>
+</resources>

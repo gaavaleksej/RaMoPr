@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Ночная версия темы -->
+    <style name="Theme.StartScreen" parent="Theme.FitnessTracker.StartScreen">
+        <!-- Тут переопределяем некоторые атрибуты для ночной темы -->
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/teal_200</item>
+        <!-- Используем наши пользовательские атрибуты -->
+        <item name="colorTextPrimary">@color/white</item>
+        <item name="colorTextSecondary">@color/teal_200</item>
+    </style>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Стандартные цвета -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Основные цвета приложения -->
+    <color name="colorPrimary">#1E88E5</color>
+    <color name="colorPrimaryDark">#1565C0</color>
+    <color name="colorAccent">#FF5722</color>
+    <color name="colorBackground">#F5F5F5</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorOnSurface">#212121</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorSecondary">#4CAF50</color>
+    <color name="colorSecondaryDark">#388E3C</color>
+    <color name="colorOnSecondary">#FFFFFF</color>
+    <color name="colorTextPrimary">#212121</color>
+    <color name="colorTextSecondary">#757575</color>
+    <color name="colorDivider">#EEEEEE</color>
+    
+    <!-- Цвета для активностей -->
+    <color name="my_activity_bg">#E8F5E9</color>
+    <color name="others_activity_bg">#FFFFFF</color>
+    
+    <!-- Activity History Colors -->
+    <color name="activity_card_background">#FFFFFF</color>
+    <color name="activity_title_text">#212121</color>
+    <color name="activity_subtitle_text">#757575</color>
+    <color name="walking_activity_color">#4CAF50</color>
+    <color name="running_activity_color">#2196F3</color>
+    <color name="cycling_activity_color">#FF9800</color>
+    <color name="swimming_activity_color">#00BCD4</color>
+    <color name="gym_activity_color">#9C27B0</color>
+</resources>

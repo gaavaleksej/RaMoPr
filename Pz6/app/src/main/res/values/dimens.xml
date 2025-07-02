@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <!-- Activity History Item -->
+    <dimen name="activity_history_card_margin">8dp</dimen>
+    <dimen name="activity_history_card_radius">12dp</dimen>
+    <dimen name="activity_history_card_elevation">4dp</dimen>
+    <dimen name="activity_history_item_padding">16dp</dimen>
+    <dimen name="activity_history_icon_size">40dp</dimen>
+    <dimen name="activity_history_text_margin">8dp</dimen>
+    <dimen name="activity_history_title_text_size">16sp</dimen>
+    <dimen name="activity_history_subtitle_text_size">14sp</dimen>
+    
+    <!-- ... existing code ... -->
+</resources> 

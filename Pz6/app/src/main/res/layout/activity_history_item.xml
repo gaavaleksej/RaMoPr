@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/activity_history_card_margin"
+    app:cardCornerRadius="@dimen/activity_history_card_radius"
+    app:cardElevation="@dimen/activity_history_card_elevation"
+    app:cardBackgroundColor="@android:color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_history_item_padding">
+
+        <ImageView
+            android:id="@+id/activity_icon"
+            android:layout_width="@dimen/activity_history_icon_size"
+            android:layout_height="@dimen/activity_history_icon_size"
+            android:src="@drawable/ic_launcher_foreground"
+            android:contentDescription="Иконка активности"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <TextView
+            android:id="@+id/activity_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/activity_history_text_margin"
+            android:text="Название активности"
+            android:textSize="@dimen/activity_history_title_text_size"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/activity_icon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/activity_subtitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/activity_history_text_margin"
+            android:text="Детали активности"
+            android:textSize="@dimen/activity_history_subtitle_text_size"
+            android:textColor="@android:color/darker_gray"
+            app:layout_constraintStart_toEndOf="@id/activity_icon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/activity_title" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView> 
